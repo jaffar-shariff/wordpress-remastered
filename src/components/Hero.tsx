@@ -23,11 +23,11 @@ export const Hero = () => {
           {/* Profile Image */}
           <div className="order-2 lg:order-1 flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-primary rounded-full blur-xl opacity-50 scale-110 animate-pulse" />
+              <div className="absolute inset-0 bg-white/20 rounded-full blur-xl opacity-70 scale-110 animate-pulse" />
               <img
                 src={jaffarProfile}
                 alt="Jaffar Shariff"
-                className="relative w-80 h-80 rounded-full object-cover border-4 border-primary/50 shadow-glow hover:scale-105 transition-transform duration-500"
+                className="relative w-80 h-80 rounded-full object-cover border-4 border-white/30 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:scale-105 hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] transition-all duration-500"
               />
             </div>
           </div>
@@ -35,13 +35,13 @@ export const Hero = () => {
           {/* Hero Content */}
           <div className="order-1 lg:order-2 text-center lg:text-left space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent leading-tight">
+              <h1 className="text-5xl lg:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent leading-tight hover:drop-shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-all duration-300">
                 Hi, I'm
               </h1>
-              <h2 className="text-6xl lg:text-8xl font-black text-primary glow-text">
+              <h2 className="text-6xl lg:text-8xl font-black text-primary hover:drop-shadow-[0_0_30px_rgba(168,85,247,0.8)] transition-all duration-300">
                 Jaffar Shariff
               </h2>
-              <h3 className="text-3xl lg:text-4xl font-semibold text-secondary">
+              <h3 className="text-3xl lg:text-4xl font-semibold text-secondary hover:drop-shadow-[0_0_20px_rgba(59,130,246,0.8)] transition-all duration-300">
                 Web Advisor.
               </h3>
             </div>
